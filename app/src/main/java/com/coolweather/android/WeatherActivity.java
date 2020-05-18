@@ -246,6 +246,6 @@ public class WeatherActivity extends AppCompatActivity {
         weatherLayout.setVisibility(View.VISIBLE);  // 将天气信息设置为可见
 
         Intent intent = new Intent(this, AutoUpdateService.class);
-        startService(intent);
+        startService(intent);//激活计时服务
 }
 }
